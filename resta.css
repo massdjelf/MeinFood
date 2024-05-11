@@ -1,0 +1,153 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Maiden+Orange&display=swap');*/
+@font-face {
+    font-family: fayez;
+    src: url(/MaidenOrange-Regular.ttf);
+}
+
+*{margin: 0%;
+
+
+
+}
+
+
+body{
+    margin: 0%;
+    background-image: url(/images/plat.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.big{color: rgb(150, 3, 52);
+padding: 3%;
+}
+    
+    .c:hover{opacity: 0.5; timeline-scope: 1s;
+    }
+    #menu{ z-index: 3;
+        border-radius: 8px;
+    height: 47px;
+    
+    margin-top: 5px;
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    margin-right: 20px;
+    border-spacing: 20px;
+    width: 90px;
+    text-align: center;
+    border-spacing: 10px;
+    
+    }
+    #menu:hover{opacity: 0.5; timeline-scope: 1s;}
+    #mm{background-image: none;}
+    #order{
+        z-index: 3;
+        background-image: none;
+        font-weight: bolder;
+        font-size: larger;
+        font-family: fayez,sans-serif;
+        word-spacing: 10px;
+        color: rgba(243, 26, 26, 0.993);
+    }
+    h3{background-image: none;}
+    #none{
+        background-image: none;
+    }
+   
+    #place1{
+        z-index: 2;
+        background-image: none;
+        position: absolute;
+        margin-top: 5.29%;
+        background: linear-gradient(to top, rgba(131, 22, 255, 0.658), hsla(0, 0%, 100%, 0.1));
+    }
+    .title{
+        font-family: fayez;
+        color: rgb(158, 24, 24);
+        background-image: url(/images/ketchup1.jpg);
+        position: absolute;
+        bottom: 91%;
+        left: 0;
+        padding: 5px;
+        font-weight: bold;
+    z-index: 2;
+
+    }
+    .ketch{
+        content: "";
+        width: 100%;
+        max-height: 70px;
+        position: absolute;
+        top: 0;
+    z-index: -1;
+opacity: 1;
+}
+
+
+#nav ul{list-style: none;
+    background-image: none;
+position: fixed;
+top: 0;
+display: flex;
+gap: 1.5em;
+right:0;
+margin-top: 4px;
+
+}
+
+
+a{
+    text-decoration: solid;
+}
+h2{
+    
+    background-image: none;
+    color: black;
+}
+
+.c{
+    margin-top: 10px ;
+
+    z-index: 3;
+height: 100%;
+    font-family:serif;
+    padding:10px;
+    border-style: none;
+    border-radius: 8px;
+    background-color:  #92562d;
+width: 80px;
+border-spacing: 20px;
+text-align: center;
+
+
+}
+
+.tab #table{
+border-width: 10px;
+    border-radius: 20px;
+    margin-top: 13%;
+    border-color: rgb(44, 8, 102);
+    
+    align-self: center;
+    margin-bottom: 10%;
+}
+
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 11.1%;
+    background: linear-gradient(180deg, rgb(19, 5, 97), hsla(0, 0%, 100%, 0.2));
+    
+}
+
+.h3{padding: 20px;
+    word-spacing: 4px;
+
+
+
+}
+footer{color: gray;}
